@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: right;
+    margin: 0 20px;
+}
+nav {
+    background: #333;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+nav a {
+    float: left;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+a {
+    color: white;
+}
+header {
+    height: 500px;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    background-image: url(bg1.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+header p, h1 {
+    margin: 100px;
+}
